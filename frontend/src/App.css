@@ -1,0 +1,54 @@
+body {
+    background-color: #282b33;
+}
+
+.App {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    height: 30%;
+}
+
+#download {
+    width: 50%;
+    height: 20%;
+    border-radius: 25px;
+    margin-top: 5%;
+    background-color:darkviolet;
+    transition: border 0.3s ease-in-out;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+#download:hover {
+    border: 2px solid rgba(255, 255, 255, 0.699);
+}
+
+#input {
+    width: 100%;
+    height: 20%;
+    resize: none;
+    line-height: 300%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #4b4d53;
+    transition: border 0.3s ease-in-out;
+    outline: none;
+    border: none;
+    color:white;
+    font-size: 150%;
+    overflow: hidden;
+}
+
+#input:hover {
+    border: 2px solid #888888;
+}
